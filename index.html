@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapii Store - Panel & NOKOS Services</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .product h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        .whatsapp-btn i {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 5px;
+        }
+        .contact {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .contact:hover {
+            background-color: #2980b9;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rapii Store</h1>
+            <p>Panel & NOKOS Services</p>
+        </header>
+
+        <div class="products">
+            <!-- Panel Products -->
+            <div class="product">
+                <h3>PANEL PTERODACTYL PUB 1GB-UNLI</h3>
+                <p class="price">200P - 3K</p>
+                <a href="https://wa.me/6283181728644?text=Saya%20ingin%20memesan%20PANEL%20PTERODACTYL%20PUB%201GB-UNLI" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>PANEL PTERODACTYL PRV 1GB-UNLI</h3>
+                <p class="price">1K - 11K</p>
+                <a href="https://wa.me/6287872891195?text=Saya%20ingin%20memesan%20PANEL%20PTERODACTYL%20PRV%201GB-UNLI" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>RESS PANEL 2SRV</h3>
+                <p class="price">5K</p>
+                <a href="https://wa.me/6283181728644?text=Saya%20ingin%20memesan%20RESS%20PANEL%202SRV" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>ADMIN PANEL 2SRV</h3>
+                <p class="price">7K</p>
+                <a href="https://wa.me/6287872891195?text=Saya%20ingin%20memesan%20ADMIN%20PANEL%202SRV" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>PARTNER PANEL</h3>
+                <p class="price">15K</p>
+                <p class="note">DPT BONUS DARI RAPII</p>
+                <a href="https://wa.me/6283181728644?text=Saya%20ingin%20memesan%20PARTNER%20PANEL" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>OWNER PANEL</h3>
+                <p class="price">20K</p>
+                <p class="note">DPT BONUS DARI RAPII</p>
+                <a href="https://wa.me/6287872891195?text=Saya%20ingin%20memesan%20OWNER%20PANEL" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <!-- NOKOS Products -->
+            <div class="product">
+                <h3>NOKOS WHATSAPP ALL NEGARA</h3>
+                <p class="price">7K - 900K</p>
+                <p class="note">TERGANTUNG STOK</p>
+                <a href="https://wa.me/6283181728644?text=Saya%20ingin%20memesan%20NOKOS%20WHATSAPP%20ALL%20NEGARA" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+
+            <div class="product">
+                <h3>NOKOS TELEGRAM ALL NEGARA</h3>
+                <p class="price">5K - 300K</p>
+                <p class="note">TERGANTUNG STOK</p>
+                <a href="https://wa.me/6287872891195?text=Saya%20ingin%20memesan%20NOKOS%20TELEGRAM%20ALL%20NEGARA" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <h3>Need Help?</h3>
+            <p>Contact us directly via WhatsApp</p>
+            <div class="contact-container">
+                <a href="https://wa.me/6283181728644" class="contact" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Contact Owner 1 (83181728644)
+                </a>
+                <a href="https://wa.me/6287872891195" class="contact" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Contact Owner 2 (87872891195)
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+                  </html>
